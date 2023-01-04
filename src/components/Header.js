@@ -29,11 +29,11 @@ const Header = () => {
                 Projects
               </NavLink>
               <NavLink
-                to="/services"
+                to="/skills"
                 style={({ isActive }) => (isActive ? activeStyle : undefined)}
                 className="nav-link"
               >
-                Services
+                Skills
               </NavLink>
               <NavLink
                 to="/About"
